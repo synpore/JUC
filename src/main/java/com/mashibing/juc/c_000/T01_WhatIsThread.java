@@ -18,8 +18,8 @@ public class T01_WhatIsThread {
     }
 
     public static void main(String[] args) {
-        //new T1().run();
-        new T1().start();
+        new T1().run();
+        //new T1().start();
         for(int i=0; i<10; i++) {
             try {
                 TimeUnit.MICROSECONDS.sleep(1);
